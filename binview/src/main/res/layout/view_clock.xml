@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+
+    <TextSwitcher
+        android:id="@+id/switcher_hour_tens"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inAnimation="@anim/bottom_in"
+        android:outAnimation="@anim/top_out"
+
+        />
+
+    <TextSwitcher
+        android:layout_marginLeft="4dp"
+        android:id="@+id/switcher_hour_digits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inAnimation="@anim/bottom_in"
+        android:outAnimation="@anim/top_out"/>
+
+    <TextSwitcher
+        android:layout_marginLeft="4dp"
+        android:id="@+id/switcher_separator_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inAnimation="@anim/fade_in"
+        android:outAnimation="@anim/fade_out"/>
+
+    <TextSwitcher
+        android:layout_marginLeft="4dp"
+        android:id="@+id/switcher_minute_tens"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inAnimation="@anim/bottom_in"
+        android:outAnimation="@anim/top_out"/>
+
+    <TextSwitcher
+        android:layout_marginLeft="4dp"
+        android:id="@+id/switcher_minute_digits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inAnimation="@anim/bottom_in"
+        android:outAnimation="@anim/top_out"/>
+
+    <TextSwitcher
+        android:layout_marginLeft="4dp"
+        android:id="@+id/switcher_separator_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inAnimation="@anim/fade_in"
+        android:outAnimation="@anim/fade_out"/>
+
+    <TextSwitcher
+        android:layout_marginLeft="4dp"
+        android:id="@+id/switcher_second_tens"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inAnimation="@anim/bottom_in"
+        android:outAnimation="@anim/top_out"/>
+
+    <TextSwitcher
+        android:layout_marginLeft="4dp"
+        android:id="@+id/switcher_second_digits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inAnimation="@anim/bottom_in"
+        android:outAnimation="@anim/top_out"/>
+
+</LinearLayout>

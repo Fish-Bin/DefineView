@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ArcView">
+        <attr name="arc_height" format="dimension" />
+        <attr name="backColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="TimeLineView">
+        <attr name="mMarketSize" format="dimension"/>
+        <attr name="mLineSize" format="dimension"/>
+        <attr name="mBeginLine" format="color|reference"/>
+        <attr name="mEndLine" format="color|reference"/>
+        <attr name="mMarketDrawable" format="color|reference"/>
+        <attr name="oritation" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="WaveView">
+        <attr name="A" format="dimension"/>
+        <attr name="K" format="dimension"/>
+        <attr name="waveColor" format="color"/>
+        <attr name="Q" format="float"/>
+        <attr name="waveSpeed" format="float"/>
+        <attr name="startPeriod" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="LightTextView">
+        <attr name="text" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="TimeView">
+        <attr name="textSize" format="dimension"/>
+        <attr name="textColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="EditTextCount">
+        <!--设置默认文字-->
+        <attr name="etText" format="string" />
+        <!--设置提示文字-->
+        <attr name="etHint" format="string" />
+        <!--设置提示文字颜色-->
+        <attr name="etHintColor" format="color" />
+        <!--设置最小高度-->
+        <attr name="etMinHeight" format="dimension" />
+        <!--设置最大长度-->
+        <attr name="etMaxLength" format="integer" />
+        <!--设置横线颜色-->
+        <attr name="etLineColor" format="color" />
+        <!--设置输入文字大小-->
+        <attr name="etTextSize" format="dimension" />
+        <!--设置输入文字颜色-->
+        <attr name="etTextColor" format="color" />
+        <!--设置提示统计文字大小-->
+        <attr name="etPromptTextSize" format="dimension" />
+        <!--设置提示统计文字颜色-->
+        <attr name="etPromptTextColor" format="color" />
+        <!--设置提示统计显示类型-->
+        <attr name="etType">
+            <!--单数类型-->
+            <enum name="singular" value="0" />
+            <!--百分比类型-->
+            <enum name="percentage" value="1" />
+        </attr>
+        <!--设置提示统计显示类型位置-->
+        <attr name="etPromptPosition">
+            <!--上方-->
+            <enum name="promptUp" value="0" />
+            <!--下方-->
+            <enum name="promptDn" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

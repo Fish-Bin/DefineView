@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cccccc">
+
+    <com.liubin.fenghui.binview.TimeLineView
+        android:id="@+id/time_line"
+        android:layout_width="200dp"
+        android:layout_height="400dp"
+        android:layout_margin="20dp"
+        app:oritation="false"
+        app:mBeginLine="#fdfd22"
+        app:mEndLine="#000000"
+        app:mMarketDrawable="#aa0000"
+        app:mMarketSize="20dp"
+        app:mLineSize="1dp"
+         />
+    <Button
+        android:text="change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>
