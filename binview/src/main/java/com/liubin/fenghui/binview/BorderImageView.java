@@ -5,7 +5,6 @@ import android.animation.ValueAnimator;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapShader;
-import android.graphics.BlurMaskFilter;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.EmbossMaskFilter;
@@ -21,7 +20,7 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.animation.CycleInterpolator;
 
-public class MyImageView extends android.support.v7.widget.AppCompatImageView {
+public class BorderImageView extends android.support.v7.widget.AppCompatImageView {
 
     private final Paint mOutBorderPaint = new Paint();//外框画笔
     private final Paint mInBorderPaint = new Paint();//内框画笔
@@ -69,11 +68,11 @@ public class MyImageView extends android.support.v7.widget.AppCompatImageView {
     private ValueAnimator valueAnimator;//动画
     private float animatedValue;//动画变化值
 
-    public MyImageView(Context context) {
+    public BorderImageView(Context context) {
         this(context, null);
     }
 
-    public MyImageView(Context context, AttributeSet attrs) {
+    public BorderImageView(Context context, AttributeSet attrs) {
         super(context, attrs);
         super.setScaleType(ScaleType.CENTER_CROP);
         setLayerType(LAYER_TYPE_SOFTWARE, null);//针对此控件关闭硬件加速

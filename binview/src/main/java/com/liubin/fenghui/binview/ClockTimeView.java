@@ -19,7 +19,7 @@ import com.liubin.fenghui.binview.Util.L;
  * 说明：时间控件，倒计时，可以翻转
  */
 
-public class TimeView extends RelativeLayout {
+public class ClockTimeView extends RelativeLayout {
     private static final boolean DEBUG = true;
 
     private TextSwitcher hourTensSwitcher, hourDigitsSwitcher;
@@ -36,17 +36,17 @@ public class TimeView extends RelativeLayout {
     private long time;
     public int hour, minute, second;
 
-    public TimeView(Context context) {
+    public ClockTimeView(Context context) {
         super(context);
         init(context, null);
     }
 
-    public TimeView(Context context, AttributeSet attrs) {
+    public ClockTimeView(Context context, AttributeSet attrs) {
         super(context, attrs);
         init(context, attrs);
     }
 
-    public TimeView(Context context, AttributeSet attrs, int defStyleAttr) {
+    public ClockTimeView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         init(context, attrs);
     }

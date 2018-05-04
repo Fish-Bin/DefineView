@@ -7,7 +7,7 @@
     android:background="#000000"
     >
 
-    <com.liubin.fenghui.binview.TimeView
+    <com.liubin.fenghui.binview.ClockTimeView
         android:id="@+id/time_clock"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

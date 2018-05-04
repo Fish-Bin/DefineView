@@ -18,8 +18,8 @@
         <activity android:name=".ArcViewActivity"/>
         <activity android:name=".TimeLineActivity"/>
         <activity android:name=".WaveViewActivity"/>
-        <activity android:name=".MyImageViewActivity"/>
+        <activity android:name=".BorderImageViewActivity"/>
         <activity android:name=".LightTextViewActivity"/>
-        <activity android:name=".TimeViewActivity"/>
+        <activity android:name=".ClockTimeViewActivity"/>
     </application>
 </manifest>

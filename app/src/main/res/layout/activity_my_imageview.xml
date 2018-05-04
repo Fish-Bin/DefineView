@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/colorPrimary">
 
-    <com.liubin.fenghui.binview.MyImageView
+    <com.liubin.fenghui.binview.BorderImageView
         android:id="@+id/my_imageview"
         android:layout_width="250dp"
         android:layout_height="200dp"

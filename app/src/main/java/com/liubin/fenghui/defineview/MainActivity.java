@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.my_imageview).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this,MyImageViewActivity.class));
+                startActivity(new Intent(MainActivity.this,BorderImageViewActivity.class));
             }
         });
         findViewById(R.id.light_textview).setOnClickListener(new View.OnClickListener() {
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.time_view).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this,TimeViewActivity.class));
+                startActivity(new Intent(MainActivity.this,ClockTimeViewActivity.class));
             }
         });
     }
